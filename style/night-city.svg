@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#10121f"/><stop offset=".6" stop-color="#19303b"/><stop offset="1" stop-color="#342537"/></linearGradient>
+ <linearGradient id="haze" x2="0" y2="1"><stop stop-color="#45d6df" stop-opacity="0"/><stop offset="1" stop-color="#45d6df" stop-opacity=".13"/></linearGradient>
+ <pattern id="windows" width="22" height="27" patternUnits="userSpaceOnUse"><path d="M5 7h4v8H5z" fill="#58c5cc" opacity=".35"/><path d="M15 7h3v4h-3z" fill="#c4d568" opacity=".25"/></pattern>
+ <pattern id="small" width="15" height="19" patternUnits="userSpaceOnUse"><path d="M4 5h3v5H4z" fill="#6ea5bb" opacity=".22"/></pattern>
+ <filter id="neon" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+ <linearGradient id="screen" x2="1" y2="1"><stop stop-color="#112a49"/><stop offset="1" stop-color="#571947"/></linearGradient>
+</defs>
+<path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+<!-- Distant megablocks and antenna towers. -->
+<path fill="#1b2835" d="M0 500h40V360h60v70h35V300h55v-65h4v65h20v240h40V390h80v80h45V340h65v-80h4v80h40v210h50V440h90v100h70V350h70v-50h5v50h45v170h80V410h75v100h30V280h85v-90h5v90h40v220h50V350h80v-50h5v50h35v200h40V390h65v80h30V315h90v195h40V420h85v580H0z"/>
+<path fill="url(#small)" d="M0 500h40V360h60v70h35V300h80v240h40V390h80v80h45V340h110v210h50V440h90v100h70V350h120v170h80V410h75v100h30V280h130v220h50V350h120v200h40V390h65v80h30V315h90v195h40V420h85v580H0z"/>
+<path fill="url(#haze)" d="M0 280h1600v720H0z"/>
+<!-- Foreground architecture frames the playable center. -->
+<path fill="#0b131d" d="M0 330h65V200h65v-65h7v65h35v110h42v290h45V455h80v-45h45v590H0zM1215 1000V460h40V340h75V220h12v120h45v230h45V280h105V175h8v105h55v720z"/>
+<path fill="url(#windows)" d="M0 330h65V200h107v110h42v290h45V455h80v-45h45v590H0zM1215 1000V460h40V340h132v230h45V280h168v720z"/>
+<g fill="none" stroke="#4ae7e3" opacity=".55"><path d="M66 210h96v100M7 341v300M1265 349h55v170M1442 291h145"/><path d="M268 475h61v8h-61z"/></g>
+<g fill="#edff28"><path opacity=".65" d="M83 250h58v7H83zM83 264h35v4H83z"/><path opacity=".5" d="M1455 365h75v9h-75zM1455 381h45v4h-45z"/></g>
+<g fill="#ee418d" opacity=".55"><path d="M183 367h12v119h-12zM1350 414h14v95h-14z"/><path d="M28 691h147v5H28zM1435 629h165v5h-165z"/></g>
+<!-- Tower-scale holographic advertising. Bright edges stay outside the game column. -->
+<g fill="none" filter="url(#neon)" opacity=".65">
+ <path d="M12 390h145v202H12z" stroke="#fa369a" stroke-width="6"/>
+ <path d="M260 510h114v157H260z" stroke="#36e9f1" stroke-width="6"/>
+ <path d="M1434 430h152v170h-152z" stroke="#eaff26" stroke-width="6"/>
+ <path d="M1232 580h116v147h-116z" stroke="#fa369a" stroke-width="6"/>
+</g>
+<g font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+ <path fill="url(#screen)" stroke="#ff59b3" stroke-width="3" d="M12 390h145v202H12z"/>
+ <path fill="#fa369a" opacity=".18" d="M20 398h129v186H20z"/>
+ <text x="84" y="425" fill="#fff1fc" font-size="16" letter-spacing="3">NIGHT</text>
+ <text x="84" y="452" fill="#fff1fc" font-size="22" letter-spacing="2">CITY</text>
+ <circle cx="84" cy="503" r="31" fill="none" stroke="#53eced" stroke-width="5"/>
+ <path d="m65 511 17-31-1 20h22l-21 27 5-16z" fill="#edff28"/>
+ <text x="84" y="566" fill="#ff9ad0" font-size="10" letter-spacing="2">NEVER SLEEP</text>
+ <path fill="#0c2a39" stroke="#53eced" stroke-width="3" d="M260 510h114v157H260z"/>
+ <text x="317" y="539" fill="#53eced" font-size="12" letter-spacing="2">CHROME</text>
+ <path d="m279 601 19-44h35l21 44-21 30h-35z" fill="#53eced" opacity=".65"/>
+ <path d="m304 571 23 0 10 27-21 18-19-18z" fill="#132532"/>
+ <text x="317" y="651" fill="#e8ffff" font-size="8" letter-spacing=".4">UPGRADE YOURSELF</text>
+ <path fill="#252b12" stroke="#edff28" stroke-width="3" d="M1434 430h152v170h-152z"/>
+ <text x="1510" y="467" fill="#edff28" font-size="27" font-style="italic">AFTER</text>
+ <text x="1510" y="495" fill="#edff28" font-size="27" font-style="italic">LIFE</text>
+ <path d="M1452 516h116M1452 522h116" stroke="#edff28" opacity=".65"/>
+ <text x="1510" y="555" fill="#f8ffd0" font-size="12" letter-spacing="3">GO LEGEND</text>
+ <text x="1510" y="580" fill="#edff28" font-size="9" letter-spacing="2">OPEN ALL NIGHT</text>
+ <path fill="url(#screen)" stroke="#ff59b3" stroke-width="3" d="M1232 580h116v147h-116z"/>
+ <text x="1290" y="611" fill="#ff94d4" font-size="13" letter-spacing="2">BRAINDANCE</text>
+ <path d="M1248 655q21-48 42 0t42 0M1248 655q21 48 42 0t42 0" stroke="#53eced" stroke-width="3" fill="none"/>
+ <text x="1290" y="709" fill="#fff1fc" font-size="11" letter-spacing="2">FEEL MORE</text>
+</g>
+<!-- Air traffic: silhouettes, headlamps, and thin engine trails. -->
+<g stroke-linecap="round">
+ <path d="M43 271h155M1120 170h128M1368 240h105" stroke="#53eced" opacity=".18" stroke-width="2"/>
+ <path d="M130 278h70" stroke="#53eced" opacity=".5" stroke-width="2"/>
+ <g transform="translate(198 258)">
+  <ellipse cx="34" cy="24" rx="42" ry="8" fill="#53eced" opacity=".3" filter="url(#neon)"/>
+  <path d="m0 15 15-4 10-11h25l14 12 15 4-5 9H6z" fill="#101d2b" stroke="#628e9f"/>
+  <path d="m28 4-7 8h35L47 4z" fill="#52cbdc" opacity=".75"/>
+  <path d="M8 23h14m34 0h15" stroke="#53eced" stroke-width="3"/>
+  <path d="M72 16h4" stroke="#fff6c8" stroke-width="3"/>
+ </g>
+ <g transform="translate(1248 154) scale(.7)">
+  <ellipse cx="32" cy="25" rx="43" ry="9" fill="#ff59b3" opacity=".4" filter="url(#neon)"/>
+  <path d="m0 16 16-5L27 0h25l12 12 14 4-5 10H6z" fill="#101d2b" stroke="#8197ae"/>
+  <path d="M29 4h19l9 8H22z" fill="#ed7fcb"/>
+  <path d="M7 24h15m33 0h15" stroke="#ff59b3" stroke-width="3"/>
+ </g>
+ <g transform="translate(1473 228) scale(.45)">
+  <path d="m0 16 17-5L27 0h25l12 12 14 4-5 10H6z" fill="#142534" stroke="#75b8cb" stroke-width="2"/>
+  <path d="M28 4h20l8 8H22z" fill="#53eced"/>
+  <path d="M8 25h60" stroke="#53eced" stroke-width="3"/>
+ </g>
+</g>
+<!-- Elevated transit lines and deep street silhouettes. -->
+<path d="M0 805Q800 700 1600 805" fill="none" stroke="#0a111b" stroke-width="24"/>
+<path d="M0 794Q800 689 1600 794" fill="none" stroke="#4ad5da" stroke-opacity=".22" stroke-width="2"/>
+<path fill="#090f17" d="M0 860h110V745h90v100h65v-70h95v120h65v-65h100v170H0zM1120 1000V830h95v60h70V770h90v80h50V730h100v110h75v160z"/>
+</svg>
